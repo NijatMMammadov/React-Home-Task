@@ -1,0 +1,63 @@
+#root {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  background-color: blueviolet;
+}
+
+.row{
+  width: 500px ;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  h2{
+    margin: 1px;
+  }
+}
+
+.span{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border: 15px solid blueviolet;
+  
+  input{
+    padding: 7px;
+    font-size: 16px;
+  }
+  button{
+    padding: 7px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+  }
+}
+
+
+p{
+  margin: 0px;
+}
+
+
+.time{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+  flex-direction: row;
+  
+}
